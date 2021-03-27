@@ -1,6 +1,8 @@
-body {
-    background-color: lightblue;
-  }
+body{
+    background-color: orange;
+    
+}
+
 .mid-Text1{
     font-family: cursive;
     margin-top: 0;
@@ -44,14 +46,90 @@ body {
    }
   
   
+ /*//////////////////////////////////////////////////////////////////////////////////////////////*/
   
-  
+ .post-container {
+    margin-left: 10%;
+   
+}
 
-  
+.post {
+    box-sizing: border-box;
+    width: 40%;
+    height: 160px;
+    display: inline-block;
+    background: #ece4e4;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin-right: 9%;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    ;
+
+}
+
+
+
+.content {
+    display: table-cell;
+    box-sizing: border-box;
+}
+
+.title {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    padding: fit-content;
+    font-size: 15px;
+    height: 50px;
+    padding-top: 0;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+
+}
  
-  
+.title {
+    font-size: 19px;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    font-family: 'Patrick Hand SC', cursive;
+}
+.post {
+    box-shadow: 1px 1px 1px white;
+}
+
+
+.post:last-of-type {
+    margin-left: 25%;
+}
+
+.author {
+    display: table-cell;
+    height: 10rem;
+    width: 5rem;
+    text-align: center;
+    background: #ffffff;
+    
+}
+.author-name {
+    margin-top: 10px;
+    position: relative;
+    top: 20%;
+    font-weight: bold;
    
-   
+} 
+.post {
+    box-shadow: 1px 5px 5px rgb(122, 87, 21);
+}
     
       
       
