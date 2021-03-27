@@ -4,10 +4,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-h1{
-    text-align: center;
-    font-family: 'Abel', sans-serif;
-}
+
 .mid-Text{
     font-family: cursive;
     margin-top: 0;
@@ -61,7 +58,7 @@ h1{
     align-items: center;
    }
   
-   .postbutton{
+  .postbutton{
     height: 50px;
     width: 160px;
     padding: 10px;
@@ -78,88 +75,11 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
    }
 
-   h5{
-       text-align: center;
-   }
-       body{
-        background-image: url("../images/background.jpg");
-        background-repeat: none;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    h1{
-        text-align: center;
-        font-family: 'Abel', sans-serif;
-    }
-    .mid-Text{
-        font-family: cursive;
-        margin-top: 0;
-        margin: 0 0 0px 10px;
-        text-decoration: none;
-        font-style: italic;
-        }
-    
-    .logo{
-        font-family:cursive;
-        font-size: 50px;
-        font-style: italic;
-        color:blue;
-       
-        margin: 10px 10px 0px 10px;
-    }
-    .sign-up{
-        width: 120px;
-        padding: 10px;
-        border-radius: 2px;
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 90%;
-        background: #0000ff;
-        color: #fff;
-        float: right;                  
-      
-        margin: 10px 10px 0px 0px;
-        font-family: Arial, Helvetica, sans-serif;
-       }
-      
-    #Title{
-        font-family: 'Montez', cursive;
-        font-size: 50px;
-        color: #1835b9;
-        margin: auto;
-        text-decoration: none;
-        margin: 10px 10px 0px 10px;    
-        }
-    
-    .modal-signin-container{
-        border: 10px solid white;
-      }
-      
+  
+ 
+  
+   
+   
     
       
       
-       .postbutton{
-        height: 50px;
-        width: 160px;
-        padding: 10px;
-        border-radius: 2px;
-       cursor: pointer;
-        font-weight: 500;
-        font-size: 100%;
-        background: #DAB641;
-        color:black;
-        float: center;                  
-      
-        margin: 10px 10px 0px 0px;
-        font-family: Arial, Helvetica, sans-serif;
-       }
-    
-       .bg-post{
-        display: flex;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-       }
-       h5{
-           text-align: center;
-       }
