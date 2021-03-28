@@ -17,7 +17,7 @@ body{
     font-family:cursive;
     font-size: 50px;
     font-style: italic;
-    color:blue;
+    color:rgb(26, 26, 185);
    
     margin: 10px 10px 0px 10px;
 }
@@ -25,7 +25,7 @@ body{
 #Title{
     font-family: 'Montez', cursive;
     font-size: 50px;
-    color: #1835b9;
+    color: #1534be;
     margin: auto;
     text-decoration: none;
     margin: 10px 10px 0px 10px;    
@@ -67,7 +67,7 @@ body{
     cursor: pointer;
     font-weight: 500;
     font-size: 100%;
-    background: #dfb93f;
+    background: #f0c740;
     color:black;
     float: center;                  
   

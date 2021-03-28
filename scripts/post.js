@@ -1,14 +1,13 @@
 var likeButton = document.getElementById("like-button");
 var likeLine = document.getElementById("like-people");
-var clickNumber = 0;
-var textBox = document.getElementById("posttext");
-var editSaveButton = document.querySelector(".edit-save button");
 var commentButton = document.getElementById("comment-button");
 const editText = editSaveButton.innerHTML;
 var commentList = document.querySelector(".comment-list");
+var clickNumber = 0;
+var textBox = document.getElementById("posttext");
+var editSaveButton = document.querySelector(".edit-save button");
 var edit = true;
 var save = false;
-
 var headingForm = document.getElementById("heading-input");
 likeButton.addEventListener("click", () => {
     ++clickNumber;
@@ -23,6 +22,7 @@ likeButton.addEventListener("click", () => {
 
 
 editSaveButton.addEventListener("click", () => {
+
     if (edit) {
         editSaveButton.innerHTML = ' Save <i class="fa fa-save"></i>';
         edit = false;
@@ -39,6 +39,7 @@ editSaveButton.addEventListener("click", () => {
 var allcomment = [];
 var numOfComment = 0;
 commentButton.addEventListener("click", () => {
+    
     numOfComment++;
     comment = document.getElementById("comment-area");
     var p = document.createElement("p");
