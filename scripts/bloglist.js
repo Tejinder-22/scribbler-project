@@ -1,5 +1,7 @@
 var model = document.getElementById("delete-modal");
+
 var deleteButton = document.getElementsByClassName("delete");
+
 var deleteModal = document.getElementById("delete-modal");
 
 (function () {

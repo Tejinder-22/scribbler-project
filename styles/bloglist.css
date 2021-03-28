@@ -74,6 +74,7 @@ body{
 .content {
     display: table-cell;
     box-sizing: border-box;
+   
 }
 
 .title {
@@ -134,13 +135,14 @@ body{
  /* delete modal //////////////////////////////////////////////////////////////////////////////*/     
       
  .delete {
-    position: static;
+
     font-size: 1.3rem;
     margin-right: 16px;
     display: flex;
     flex-direction: row-reverse;
     left: 70%;
     cursor: pointer;
+    float: right;
 }
 
 #delete-modal {
@@ -213,4 +215,6 @@ p#tagline {
     color: white;
     font-weight: 600;
 }
+
+
 
